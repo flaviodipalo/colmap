@@ -138,7 +138,7 @@ void AutomaticReconstructionController::Run() {
 
   RunFeatureExtraction();
 
-  if (IsStopped()) {
+  /*if (IsStopped()) {
     return;
   }
 
@@ -159,6 +159,7 @@ void AutomaticReconstructionController::Run() {
   if (options_.dense) {
     RunDenseMapper();
   }
+   */
 }
 
 void AutomaticReconstructionController::RunFeatureExtraction() {
